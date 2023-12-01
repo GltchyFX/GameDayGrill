@@ -276,4 +276,9 @@
     })
   });
 
+  const reservationBtn = document.querySelector("#reservationBtn");
+
+  reservationBtn.addEventListener("click", function(){
+    reservationBtn.textContent = "Thank You";
+  })
 })()

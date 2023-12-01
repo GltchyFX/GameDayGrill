@@ -50,16 +50,16 @@
     <div class="container d-flex justify-content-center justify-content-md-between">
 
       <div class="contact-info d-flex align-items-center">
-        <i class="bi bi-phone d-flex align-items-center"><span>+1 5589 55488 55</span></i>
-        <i class="bi bi-clock d-flex align-items-center ms-4"><span> Mon-Sat: 11AM - 23PM</span></i>
+        <i class="bi bi-phone d-flex align-items-center"><span>(555)847-1337</span></i>
+        <i class="bi bi-clock d-flex align-items-center ms-4"><span> Mon-Sat: 11AM - 11PM</span></i>
       </div>
 
-      <div class="languages d-none d-md-flex align-items-center">
+      <!--<div class="languages d-none d-md-flex align-items-center">
         <ul>
           <li>En</li>
           <li><a href="#">De</a></li>
         </ul>
-      </div>
+      </div>-->
     </div>
   </div>
 
@@ -137,20 +137,18 @@
             </div>
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
-            <h3>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h3>
+            <h3>The qualities of our blazing good grill stationed here in Weslaco, Texas</h3>
             <p class="fst-italic">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-              magna aliqua.
+              We here at GameDayGrill value every customer as if they were family for the simple reason that <em>YOU ARE</em> family. That is why we do what we do. We want to care for our family and that means caring about you but especially your many hungry needs:    
             </p>
             <ul>
-              <li><i class="bi bi-check-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-              <li><i class="bi bi-check-circle"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
-              <li><i class="bi bi-check-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</li>
+              <li><i class="bi bi-check-circle"></i> Savory food sure to blast your taste buds to a whole new world and that's according to our many customer testimonials!</li>
+              <li><i class="bi bi-check-circle"></i> Proffesional chefs that specialize in our domain of grilled food!</li>
+              <li><i class="bi bi-check-circle"></i> Wait staff that is sure to make you feel at home!</li>
+              <li><i class="bi bi-check-circle"></i> Strict sanitary guidelines to keep our restaurant more clean and shiny than a diamond!</li>
             </ul>
             <p>
-              Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-              velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-              culpa qui officia deserunt mollit anim id est laborum
+              Here at GameDayGrill, satisfying you is our top priority, and we will do everything in our power to guarantee that your visit to our domicile is as pleasant as can be. It's as they say, mi casa es tu casa!
             </p>
           </div>
         </div>
@@ -172,24 +170,25 @@
           <div class="col-lg-4">
             <div class="box" data-aos="zoom-in" data-aos-delay="100">
               <span>01</span>
-              <h4>Lorem Ipsum</h4>
-              <p>Ulamco laboris nisi ut aliquip ex ea commodo consequat. Et consectetur ducimus vero placeat</p>
+              <h4>Food</h4>
+              <p>As a grill restaurant, it is very clear that the <b>number 1</b> reason to visit us would be for the food. Though there are many other restaurants out there that serve similar food to us, none of them do it like we do. Our specialized menu has allowed us to master the art of grilled food making it the best around!</p>
             </div>
           </div>
 
           <div class="col-lg-4 mt-4 mt-lg-0">
             <div class="box" data-aos="zoom-in" data-aos-delay="200">
               <span>02</span>
-              <h4>Repellat Nihil</h4>
-              <p>Dolorem est fugiat occaecati voluptate velit esse. Dicta veritatis dolor quod et vel dire leno para dest</p>
+              <h4>Staff</h4>
+              <p>Our staff are professionals at their job and love their work. They are enthusiastic to welcome you as another member of our family and will treat you as such. They always aim to guarantee 100% satisfaction, and they won't quit until they are sure they have done everything in their power to see that you have enjoyed your stay at our house!</p>
             </div>
           </div>
 
           <div class="col-lg-4 mt-4 mt-lg-0">
             <div class="box" data-aos="zoom-in" data-aos-delay="300">
               <span>03</span>
-              <h4> Ad ad velit qui</h4>
-              <p>Molestiae officiis omnis illo asperiores. Aut doloribus vitae sunt debitis quo vel nam quis</p>
+              <h4>Atmosphere</h4>
+              <!--Extend this section later-->
+              <p>We pride ourselves in making you feel as if you were at a dear relatives house, where you are warm and cozy while also being able to be yourself.</p>
             </div>
           </div>
 
@@ -744,12 +743,14 @@
             <textarea class="form-control" name="message" rows="5" placeholder="Message"></textarea>
             <div class="validate"></div>
           </div>
+          <!--
           <div class="mb-3">
             <div class="loading">Loading</div>
             <div class="error-message"></div>
             <div class="sent-message">Your booking request was sent. We will call back or send an Email to confirm your reservation. Thank you!</div>
           </div>
-          <div class="text-center"><button type="submit">Book a Table</button></div>
+          -->
+          <div class="text-center"><button type="submit" id="reservationBtn">Book a Table</button></div>
         </form>
 
       </div>
@@ -938,7 +939,7 @@
               <img src="assets/img/chefs/chefs-1.jpg" class="img-fluid" alt="">
               <div class="member-info">
                 <div class="member-info-content">
-                  <h4>Walter White</h4>
+                  <h4>Walter White</h4><!--The people that made this template really got jokes lol-->
                   <span>Master Chef</span>
                 </div>
                 <div class="social">
@@ -1003,9 +1004,8 @@
       </div>
 
       <div data-aos="fade-up">
-        <iframe style="border:0; width: 100%; height: 350px;" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" allowfullscreen></iframe>
+        <iframe style="border:0; width: 100%; height: 350px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3581.361684796333!2d-97.97234462397344!3d26.152347792351737!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86657782afe49119%3A0xbdb14ac456f221a4!2s810%20Pleasantview%20Dr%2C%20Weslaco%2C%20TX%2078596!5e0!3m2!1sen!2sus!4v1701295759396!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       </div>
-
       <div class="container" data-aos="fade-up">
 
         <div class="row mt-5">
@@ -1015,7 +1015,7 @@
               <div class="address">
                 <i class="bi bi-geo-alt"></i>
                 <h4>Location:</h4>
-                <p>A108 Adam Street, New York, NY 535022</p>
+                <p>810 Pleasantview Dr, Weslaco, TX 78596</p>
               </div>
 
               <div class="open-hours">
@@ -1023,7 +1023,7 @@
                 <h4>Open Hours:</h4>
                 <p>
                   Monday-Saturday:<br>
-                  11:00 AM - 2300 PM
+                  11:00 AM - 11:00 PM
                 </p>
               </div>
 
@@ -1036,7 +1036,7 @@
               <div class="phone">
                 <i class="bi bi-phone"></i>
                 <h4>Call:</h4>
-                <p>+1 5589 55488 55s</p>
+                <p>(555)847-1337</p>
               </div>
 
             </div>
@@ -1087,9 +1087,9 @@
             <div class="footer-info">
               <h3>GamedayGrill</h3>
               <p>
-                A108 Adam Street <br>
-                NY 535022, USA<br><br>
-                <strong>Phone:</strong> +1 5589 55488 55<br>
+                810 Pleasantview Dr <br>
+                TX 78596, USA<br><br>
+                <strong>Phone:</strong> (555)847-1337<br>
                 <strong>Email:</strong> gamedaygrillweslaco@gmail.com<br>
               </p>
               <div class="social-links mt-3">
