@@ -281,4 +281,10 @@
   reservationBtn.addEventListener("click", function(){
     reservationBtn.textContent = "Thank You";
   })
+
+  const orderBtn = document.querySelector("#orderBtn");
+
+  orderBtn.addEventListener("click", function(){
+    orderBtn.textContent = "Thank You";
+  })
 })()
