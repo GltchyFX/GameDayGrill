@@ -762,7 +762,7 @@
               <input type="text" class="form-control" name="name" id="name" placeholder="Menu Item" data-rule="minlen:4" data-msg="Please enter the name of a menu item">
               <div class="validate"></div>
             </div>
-            <div class="col-lg-4 col-md-6 form-group mt-3 mt-md-0">
+            <div class="form-group col-lg-4 col-md-6 mt-3 mt-md-0">
               <input type="text" class="form-control" name="method" id="method" placeholder="Pick-up or Delivery" data-rule="minlen:7" data-msg="Please select pick-up or delivery">
               <div class="validate"></div>
             </div>
@@ -770,9 +770,20 @@
               <input type="text" class="form-control" name="time" id="time" placeholder="Time of pick-up or delivery" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
               <div class="validate"></div>
             </div>
-            <div class="col-lg-4 col-md-6 form-group mt-3 mt-md-0">
+            <div class="col-lg-6 col-md-6 form-group mt-3 mt-md-0">
               <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email">
               <div class="validate"></div>
+            </div>
+            <div class="col-lg-6 col-md-6 form-group mt-3 mt-md-0">
+              <input type="text" class="form-control" name="address" id="address" placeholder="Your Address" data-rule="address" data-msg="Please enter a valid address">
+              <div class="validate"></div>
+            </div>
+            <div class="form-group mt-3">
+              <textarea class="form-control" name="special-instructions" rows="3" placeholder="Special Instructions"></textarea>
+              <div class="validate"></div>
+            </div>
+            <div class="col-lg-4 col-md-6 form-group mt-3 mt-md-0">
+
             </div>
             <div class="text-center">
               <button type="submit" id="orderBtn">Order</button>
