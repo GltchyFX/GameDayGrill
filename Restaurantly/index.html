@@ -9,12 +9,10 @@
 
   <!--Replace (menu item) with items from the menu-->
 
-  <meta content="The website for the blazing GameDayGrill located in Weslaco, Texas. Come in and get some of our amazing food. We offer wonderful dishes from (menu item) to (menu item) that you are sure to enjoy!" name="description">
+  <meta content="The website for the blazing GameDayGrill located in Weslaco, Texas. Come in and get some of our amazing food. We offer wonderful dishes from chicken tenders to ribeye that you are sure to enjoy!" name="description">
   <meta content="Grill, Weslaco, Food, GameDay, GameDayGrill" name="keywords">
 
   <!-- Favicons -->
-
-  <!-- Change Favicon Eventually-->
 
   <link href="assets/img/favicon.png" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
@@ -104,6 +102,7 @@
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
       <a href="#book-a-table" class="book-a-table-btn scrollto d-none d-lg-flex">Book a table</a>
+      <a href="#online-ordering" class="online-ordering-btn scrollto d-none d-lg-flex">Order Online</a>
 
     </div>
   </header><!-- End Header -->
@@ -606,18 +605,11 @@
                     <p><span>$189</span></p>
                   </div>
                   <p class="fst-italic">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                    magna aliqua.
+                    Come Celebrate with us here at GameDayGrill! Here at GameDayGrill we are dedicated to making your day a special one.
                   </p>
                   <ul>
-                    <li><i class="bi bi-check-circled"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-                    <li><i class="bi bi-check-circled"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
-                    <li><i class="bi bi-check-circled"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-                  </ul>
-                  <p>
-                    Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                    velit esse cillum dolore eu fugiat nulla pariatur
-                  </p>
+                    <li><i class="bi bi-check-circled"></i> An area reserved for you for 2 hours.</li>
+                    <li><i class="bi bi-check-circled"></i> Area fitting up to 25 people.</li>
                 </div>
               </div>
             </div><!-- End testimonial item -->
@@ -633,18 +625,11 @@
                     <p><span>$290</span></p>
                   </div>
                   <p class="fst-italic">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                    magna aliqua.
+                    Want something with just you and your loved ones? GameDayGrill's got it!
                   </p>
                   <ul>
-                    <li><i class="bi bi-check-circled"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-                    <li><i class="bi bi-check-circled"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
-                    <li><i class="bi bi-check-circled"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-                  </ul>
-                  <p>
-                    Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                    velit esse cillum dolore eu fugiat nulla pariatur
-                  </p>
+                    <li><i class="bi bi-check-circled"></i> A room reserved for you and your loved ones for 2 hours.</li>
+                    <li><i class="bi bi-check-circled"></i> Room fitting up to 45 people.</li>
                 </div>
               </div>
             </div><!-- End testimonial item -->
@@ -660,18 +645,11 @@
                     <p><span>$99</span></p>
                   </div>
                   <p class="fst-italic">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                    magna aliqua.
+                    For any occasion you're looking for, GameDayGrill's got you covered!
                   </p>
                   <ul>
-                    <li><i class="bi bi-check-circled"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-                    <li><i class="bi bi-check-circled"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
-                    <li><i class="bi bi-check-circled"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-                  </ul>
-                  <p>
-                    Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                    velit esse cillum dolore eu fugiat nulla pariatur
-                  </p>
+                    <li><i class="bi bi-check-circled"></i> An area reserved for you for an hour.</li>
+                    <li><i class="bi bi-check-circled"></i> Area fitting up to 10 people.</li>
                 </div>
               </div>
             </div><!-- End testimonial item -->
@@ -723,18 +701,58 @@
             <textarea class="form-control" name="message" rows="5" placeholder="Message"></textarea>
             <div class="validate"></div>
           </div>
-          <!--
-          <div class="mb-3">
-            <div class="loading">Loading</div>
-            <div class="error-message"></div>
-            <div class="sent-message">Your booking request was sent. We will call back or send an Email to confirm your reservation. Thank you!</div>
-          </div>
-          -->
           <div class="text-center"><button type="submit" id="reservationBtn">Book a Table</button></div>
+        </form>
+      </div>
+    </section><!-- End Book A Table Section -->
+
+    <!-- Start Online Ordering Section -->
+    <section id="online-ordering" class="online-ordering">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Online Ordering</h2>
+          <p>Order anything off the menu for pick-up or delivery</p>
+        </div>
+
+        <form action="#" method="post" role="form" class="online-ordering-form" data-aos="fade-up" data-aos-delay="100">
+          <div class="row">
+            <div class="col-lg-4 col-md-6 form-group">
+              <input type="text" class="form-control" name="name" id="name" placeholder="Menu Item" data-rule="minlen:4" data-msg="Please enter the name of a menu item">
+              <div class="validate"></div>
+            </div>
+            <div class="form-group col-lg-4 col-md-6 mt-3 mt-md-0">
+              <input type="text" class="form-control" name="method" id="method" placeholder="Pick-up or Delivery" data-rule="minlen:7" data-msg="Please select pick-up or delivery">
+              <div class="validate"></div>
+            </div>
+            <div class="col-lg-4 col-md-6 form-group mt-3 mt-md-0">
+              <input type="text" class="form-control" name="time" id="time" placeholder="Time of pick-up or delivery" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+              <div class="validate"></div>
+            </div>
+            <div class="col-lg-6 col-md-6 form-group mt-3 mt-md-0">
+              <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email">
+              <div class="validate"></div>
+            </div>
+            <div class="col-lg-6 col-md-6 form-group mt-3 mt-md-0">
+              <input type="text" class="form-control" name="address" id="address" placeholder="Your Address" data-rule="address" data-msg="Please enter a valid address">
+              <div class="validate"></div>
+            </div>
+            <div class="form-group mt-3">
+              <textarea class="form-control" name="special-instructions" rows="3" placeholder="Special Instructions"></textarea>
+              <div class="validate"></div>
+            </div>
+            <div class="col-lg-4 col-md-6 form-group mt-3 mt-md-0">
+
+            </div>
+            <div class="text-center">
+              <button type="submit" id="orderBtn">Order</button>
+            </div>
+          </div>
         </form>
 
       </div>
-    </section><!-- End Book A Table Section -->
+    </section>
+    <!-- End Online Ordering Section-->
 
     <!-- ======= Testimonials Section ======= -->
     <section id="testimonials" class="testimonials section-bg">
@@ -1042,11 +1060,6 @@
               <div class="form-group mt-3">
                 <textarea class="form-control" name="message" rows="8" placeholder="Message" required></textarea>
               </div>
-              <div class="my-3">
-                <div class="loading">Loading</div>
-                <div class="error-message"></div>
-                <div class="sent-message">Your message has been sent. Thank you!</div>
-              </div>
               <div class="text-center"><button type="submit">Send Message</button></div>
             </form>
 
@@ -1087,15 +1100,15 @@
           <div class="col-lg-2 col-md-6 footer-links">
             <h4>Useful Links</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#hero">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#about">About us</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
             </ul>
           </div>
 
-          <div class="col-lg-3 col-md-6 footer-links">
+          <!-- <div class="col-lg-3 col-md-6 footer-links">
             <h4>Our Services</h4>
             <ul>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
@@ -1104,11 +1117,11 @@
               <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
             </ul>
-          </div>
+          </div> -->
 
           <div class="col-lg-4 col-md-6 footer-newsletter">
             <h4>Our Newsletter</h4>
-            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+            <p>Sign up to get notified of any new limited time specials being served at this location!</p>
             <form action="" method="post">
               <input type="email" name="email"><input type="submit" value="Subscribe">
             </form>
